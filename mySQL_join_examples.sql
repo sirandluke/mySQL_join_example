@@ -1,6 +1,6 @@
 # INNER JOIN EXAMPLE #
 SELECT # grab the columns you want to show
-	users.id,
+    users.id,
     users.first_name,
     users.last_name,
     posts.title,  # posts is a child of users so we are allowed to do this.
@@ -11,7 +11,7 @@ ORDER BY  users.id;
 
 # RIGHT JOIN EXAMPLE #
 SELECT 
-	users.id,
+    users.id,
     users.first_name,
     users.last_name,
     posts.title,
@@ -22,7 +22,7 @@ ORDER BY users.id; # -> SHOWS US ALL MATCHES PLUS EVERYTHING IN POSTS TABLE
 
 # LEFT JOIN EXAMPLE #
 SELECT 
-	users.id,
+    users.id,
     users.first_name,
     users.last_name,
     posts.title,
